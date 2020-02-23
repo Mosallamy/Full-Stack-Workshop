@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>1.7 Media - Full Stack Workshop</title>
+	</head>
+	<body>
+		<h1>1.7 HTML - Media</h1><hr>
+		<h3>Tim Berners Lee - Inventor of the World Wide Web</h3>
+		<img src="images/tim.jpg" alt="" width="200px">
+		<br>
+		<h3>The future of the internet - MP4 - Using src attribute</h3>
+		<video src="../media/tim.mp4" controls width="400px">
+			Your browser does not support the video tag.
+		</video>
+		<h3>The future of the internet - MP4 - using source element</h3>
+		<video controls width="400px">
+			<!-- The difference is that by using source you can add multiple sources and the browser will load the first recognized source -->
+			<source src="../media/tim.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<h3>The future of the internet - MP3</h3>
+		<audio src="../media/tim.mp3" controls>
+			Your browser does not support the audio tag.
+		</audio>
+
+	</body>
+</html>
