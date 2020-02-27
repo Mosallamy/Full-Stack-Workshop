@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>1 - Basics</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*This is a CSS comment*/
+        body{
+            background-color: bisque;
+        }
+        .internal{
+            color:red;
+            text-align: right;
+        }
+        #internal_id{
+            color:pink;
+            font-style: italic;
+        }
+        p{
+            font-family: "Big Caslon";
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <h1>2.1 - CSS basics</h1>
+    <hr>
+    <h3>Ways of writing CSS:</h3>
+    <ol>
+        <li>Inline: as an attribute in the opening tag of an element.</li>
+        <li>Internal: in the same html files inside the style tag in the head.</li>
+        <li>External: in a seperate CSS file, and then linking that file inside html head.</li>
+    </ol>
+    <hr>
+    <h3>Basic stbtax of CSS:</h3>
+    <hr>
+    <h3>Types of selectors (a way to target a specific element):</h3>
+    <ol>
+        <li><b>Tag:</b> h1,p,div</li>
+        <li><b>Class:</b>  .class</li>
+        <li><b>Id:</b> #id</li>
+    </ol>
+    <hr>
+    <h3>Examples:</h3>
+    <h1 style="color: blue">Styled by inline CSS</h1>
+    <h1 class="internal">Styled by internal CSS - Class</h1>
+    <h1 id="internal_id">Styled by internal CSS - ID</h1>
+    <h1 class="external">Style by external CSS</h1>
+    <p>This is styled by using tag</p>
+</body>
+</html>

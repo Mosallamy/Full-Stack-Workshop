@@ -1,0 +1,24 @@
+.a{
+    width:150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    background-color: gold;
+    transition: .5s;
+    margin: 0 auto;
+}
+.a:hover{
+    background-color: #b09600;
+    transform: rotate(180deg);
+    transition: .5s;
+}
+h2{
+    color: crimson;
+    transition: .3s;
+    text-align: center;
+    background-color: gold;
+}
+h2:hover{
+    color: #72dc76;
+    transition: .3s;
+}

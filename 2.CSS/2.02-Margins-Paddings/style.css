@@ -1,0 +1,22 @@
+.margin{
+    background-color: aqua;
+    text-align: center;
+    margin:50px; /* For all sides */
+    /*margin-top:50px;*/
+    /*margin-right:50px;*/
+    /*margin-bottom:50px;*/
+    /*margin-left:50px;*/
+    /*margin:50px 50px; first value for top/bottom - second value for right/left */
+    transition: 3s;
+}
+.padding{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 50px; /* For all sides */
+    /*padding-top:50px;*/
+    /*padding-right:50px;*/
+    /*padding-bottom:50px;*/
+    /*padding-left:50px;*/
+    /*padding:50px 50px; first value for top/bottom - second value for right/left */
+    transition: 3s;
+}
